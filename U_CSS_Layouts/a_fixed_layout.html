@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fixed Layout using HTML and CSS</title>
     <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
         #mainWrap {
             width: 1200px;
             height: 500px;
@@ -51,7 +54,6 @@
             padding: 25px;
             font-size: 22px;
             background-color: #b8b5bb;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             /* overflow: hidden; */
         }
 
@@ -64,12 +66,12 @@
 
         #departmentWrap {
             width: 1100px;
-            height: 500px;
+            height: 415px;
             background-color: aqua;
             padding: 50px;
         }
         #departmentWrap h1{
-            margin: 0;
+            margin: 0 0 20px 0;
             padding: 0;
             text-transform: capitalize;
         }
@@ -84,6 +86,17 @@
             height: 300px;
             float: left;
             padding: 33px;
+        }
+        #footerWrap {
+            width: 1200px;
+            height: 80px;
+            background-color: #2b2c2c;
+        }
+        #footerWrap p{
+            margin: 0;
+            padding: 32px 0 0 0;
+            color: white;
+            text-align: center;
         }
     </style>
 </head>
@@ -126,6 +139,9 @@
                 <div class="depBox" style="background-color: #2480b6;"></div>
                 <div class="depBox" style="background-color: #8ee71a;"></div>
             </div>
+        </div>
+        <div id="footerWrap">
+            <p>&copy; 2024 Sanothimi Campus</p>
         </div>
     </div><!-- /mainWrap -->
 </body>
